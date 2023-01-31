@@ -1,9 +1,10 @@
-1.This project used to get listNames attributes node Jason object
-2. Need to configure the mysql database to write the json object based on query
+#This project used to get listNames attributes node Jason object
 
-Unit test written inside test/java directory run getCredentialsTest method
+#Need to configure the mysql database to write the json object based on query
 
-MYsql query for database operation:
+#Unit test written inside test/java directory run getCredentialsTest method
+
+#MYsql query for database operation:
 
 show databases;
 use ndsuguiddb;
@@ -17,7 +18,6 @@ guid varchar(255),
 sn varchar(255),
 username varchar(255),
 PRIMARY KEY (recordNumber)
-
 );
 select * from listnameTable;
 
