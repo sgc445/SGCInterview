@@ -21,4 +21,6 @@ PRIMARY KEY (recordNumber)
 );
 select * from listnameTable;
 
+Database username and credentials is hardcoded which can be read fro properties file as well. And need to configure as per your system sql database.
+
 This code can be optimized and java doc can be created with method usages.
